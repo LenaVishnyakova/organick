@@ -1,0 +1,46 @@
+.offers {
+  padding: 154px 30px 190px;
+  display: flex;
+  justify-content: center;
+  column-gap: 36px;
+}
+
+.card {
+  position: relative;
+  width: 682px;
+  height: 367px;
+
+  padding: 109px 55px;
+}
+
+.card__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.card__subtitle {
+  font-family: "Yellowtail";
+  font-size: 36px;
+  line-height: 49.06px;
+  color: #fff;
+}
+
+.card__title {
+  max-width: 260px;
+
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.88px;
+
+  color: #fff;
+}
+
+.card__subtitle_dark {
+  color: var(--green);
+}
+
+.card__title_dark {
+    color: var(--dark-blue);
+}

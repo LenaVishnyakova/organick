@@ -1,0 +1,11 @@
+.food {
+    display: flex;
+    justify-content: center;
+}
+
+.food__content {
+    padding: 90px 30px 140px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 21px;
+}

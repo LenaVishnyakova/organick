@@ -1,0 +1,25 @@
+.hero {
+  margin: 204px auto 0;
+  height: 898px;
+  background-image: url("../../../../images/homePage/heroImg.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 247px 260px 0;
+}
+
+.hero__subtitle {
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  line-height: 49.06px;
+  color: #68A47F;
+}
+
+.hero__title {
+  margin: 8px 0 23px;
+  max-width: 530px;
+}

@@ -1,0 +1,58 @@
+:root {
+  --dark-blue: #274c5b;
+  --green: #7eb693;
+  --light-green: #eff6f1;
+  --yellow: #efd372;
+  --dark-grey: #525c60;
+  --grey: #d4d4d4;
+  --light-grey: #f9f8f8;
+
+  /* max-width: 1920px; */
+  /* margin: 0 auto; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--dark-blue);
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 82.03px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 58.59px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46.88px;
+}
+
+h4 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 41.02px;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35.16px;
+}
+
+h6 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 29.3px;
+}
+
+p {
+  font-family: "Open sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.77px;
+}

@@ -1,0 +1,26 @@
+.button {
+  padding: 28px 39px;
+  
+    display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+
+  box-sizing: border-box;
+  border: 1px solid var(--dark-blue);
+  border-radius: 16px;
+}
+
+.button_yellow {
+    border: none;
+    background-color: var(--yellow);
+}
+
+.button_blue {
+    border: none;
+    background-color: var(--dark-blue);
+    color: #fff;
+}
