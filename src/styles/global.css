@@ -51,8 +51,9 @@ h6 {
 }
 
 p {
-  font-family: "Open sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 29.77px;
+
+  color: var(--dark-grey);
 }

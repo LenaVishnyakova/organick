@@ -1,0 +1,101 @@
+.card {
+    padding: 90px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.card__img {
+  position: relative;
+  width: 591px;
+  height: 563px;
+  background-color: var(--light-grey);
+
+  border-radius: 30px;
+}
+
+.card__img > img {
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.card__img > span {
+  position: absolute;
+  left: 35px;
+  top: 38px;
+
+  padding: 5px 12px;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+
+  background-color: var(--dark-blue);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.card__info {
+  max-width: 658px;
+  padding-top: 106px;
+  padding-left: 88px;
+}
+
+.card__title {
+  font-weight: 600;
+}
+
+.card__stars {
+  padding: 9px 0;
+}
+
+.card__prices {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card__oldPrice {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+
+  text-decoration: line-through;
+  color: #b8b8b8;
+}
+
+.card__newPrice {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.05px;
+}
+
+.card__text {
+  margin-top: 27px;
+}
+
+.form {
+  margin-top: 35px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.form__label {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+}
+
+.form__input {
+  width: 134px;
+  padding: 28px 0 28px 61px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+
+  box-sizing: border-box;
+  border: 2px solid var(--dark-blue);
+  border-radius: 16px;
+}

@@ -3,8 +3,7 @@ import styles from './ShopPage.module.css'
 
 const ShopPage = () => {
     return ( <div>
-        <div className={styles.title}>Shop</div>
-
+        <h1 className={styles.title}>Shop</h1>
         <Food />
     </div> );
 }

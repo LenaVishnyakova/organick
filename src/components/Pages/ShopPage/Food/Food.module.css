@@ -9,3 +9,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 21px;
 }
+
+.food__link {
+    color: var(--dark-blue);
+}
