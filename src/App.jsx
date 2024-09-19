@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import HomePage from './components/Pages/HomePage/HomePage'
 import ShopPage from './components/Pages/ShopPage/ShopPage'
 import ShopSinglePage from './components/Pages/ShopSinglePage/ShopSinglePage'
+import Page404 from './components/Pages/Page404/Page404'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/shop" element={<ShopPage />} />
       <Route path="/food/:id" element={<ShopSinglePage />} />
+      <Route path="*" element={<Page404 />} />
     </Routes>
 
     <SubscribingForm />

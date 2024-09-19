@@ -32,12 +32,12 @@ const Header = () => {
           <NavLink to="/about" className={styles.nav__item}>
             About
           </NavLink>
-          <span className={styles.nav__item}>Pages</span>
+          <NavLink to="/pages" className={styles.nav__item}>Pages</NavLink>
           <NavLink to="/shop" className={styles.nav__item}>
             Shop
           </NavLink>
-          <span className={styles.nav__item}>Projects</span>
-          <span className={styles.nav__item}>News</span>
+          <NavLink to="/projects" className={styles.nav__item}>Projects</NavLink>
+          <NavLink to="/news" className={styles.nav__item}>News</NavLink>
         </nav>
 
         <div className={styles.header__rightSide}>
